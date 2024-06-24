@@ -1,15 +1,17 @@
-package ma.enset.ebackingbachend1.mappers;
+package org.sid.ebankingbackend.mappers;
 
-import ma.enset.ebackingbachend1.dtos.AccountOperationDTO;
-import ma.enset.ebackingbachend1.dtos.CurrentBankAccountDTO;
-import ma.enset.ebackingbachend1.dtos.CustomerDTO;
-import ma.enset.ebackingbachend1.dtos.SavingBankAccountDTO;
-import ma.enset.ebackingbachend1.entities.AccountOperation;
-import ma.enset.ebackingbachend1.entities.CurrentAccount;
-import ma.enset.ebackingbachend1.entities.Customer;
-import ma.enset.ebackingbachend1.entities.SavingAccount;
+import org.sid.ebankingbackend.dtos.AccountOperationDTO;
+import org.sid.ebankingbackend.dtos.CurrentBankAccountDTO;
+import org.sid.ebankingbackend.dtos.CustomerDTO;
+import org.sid.ebankingbackend.dtos.SavingBankAccountDTO;
+import org.sid.ebankingbackend.entities.AccountOperation;
+import org.sid.ebankingbackend.entities.CurrentAccount;
+import org.sid.ebankingbackend.entities.Customer;
+import org.sid.ebankingbackend.entities.SavingAccount;
 import org.springframework.beans.BeanUtils;
+import org.springframework.stereotype.Service;
 
+@Service
 public class BankAccountMapperImpl {
     public CustomerDTO fromCustomer(Customer customer){
         CustomerDTO customerDTO = new CustomerDTO();

@@ -1,10 +1,10 @@
-package ma.enset.ebackingbachend1.entities;
+package org.sid.ebankingbackend.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ma.enset.ebackingbachend1.enums.OperationType;
+import org.sid.ebankingbackend.enums.OperationType;
 
 import java.util.Date;
 

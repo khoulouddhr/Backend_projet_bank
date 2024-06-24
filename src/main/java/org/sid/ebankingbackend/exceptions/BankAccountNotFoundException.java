@@ -1,4 +1,4 @@
-package ma.enset.ebackingbachend1.exceptions;
+package org.sid.ebankingbackend.exceptions;
 
 public class BankAccountNotFoundException extends Exception {
     public BankAccountNotFoundException(String message) {

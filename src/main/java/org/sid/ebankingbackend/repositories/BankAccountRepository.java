@@ -1,7 +1,10 @@
-package ma.enset.ebackingbachend1.repositories;
+package org.sid.ebankingbackend.repositories;
 
-import ma.enset.ebackingbachend1.entities.BankAccount;
+
+import org.sid.ebankingbackend.entities.BankAccount;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BankAccountRepository extends JpaRepository<BankAccount,String > {
+
 }

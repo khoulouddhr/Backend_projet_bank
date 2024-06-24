@@ -1,9 +1,9 @@
-package ma.enset.ebackingbachend1.services;
+package org.sid.ebankingbackend.services;
 
-import ma.enset.ebackingbachend1.dtos.*;
-import ma.enset.ebackingbachend1.exceptions.BalanceNotSufficientException;
-import ma.enset.ebackingbachend1.exceptions.BankAccountNotFoundException;
-import ma.enset.ebackingbachend1.exceptions.CustomerNotFoundException;
+import org.sid.ebankingbackend.dtos.*;
+import org.sid.ebankingbackend.exceptions.BalanceNotSufficientException;
+import org.sid.ebankingbackend.exceptions.BankAccountNotFoundException;
+import org.sid.ebankingbackend.exceptions.CustomerNotFoundException;
 
 import java.util.List;
 

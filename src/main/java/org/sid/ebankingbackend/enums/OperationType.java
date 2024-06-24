@@ -1,4 +1,4 @@
-package ma.enset.ebackingbachend1.enums;
+package org.sid.ebankingbackend.enums;
 
 public enum OperationType {
     DEBIT,CREDIT
